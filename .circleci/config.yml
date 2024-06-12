@@ -43,7 +43,4 @@ workflows:
   version: 2
   build_and_deploy:
     jobs:
-      - say-hello:
-          filters:
-            branches:
-              only: main
+      - build
